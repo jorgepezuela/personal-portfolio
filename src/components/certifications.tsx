@@ -102,14 +102,21 @@ export function Certifications() {
                 )}
 
                 {cert.link && (
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="w-fit flex items-center gap-2 hover:underline hover:underline-offset-4"
+                  <a
+                    href={cert.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-2 hover:underline hover:underline-offset-4"
                   >
-                    View Certificate
-                    <ArrowUpRightIcon className='size-4 text-primary/70' />
-                  </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      className="w-fit flex items-center gap-2"
+                    >
+                      View Certificate
+                      <ArrowUpRightIcon className='size-4 text-primary/70' />
+                    </Button>
+                  </a>
                 )}
               </CardContent>
             </Card>

@@ -164,32 +164,74 @@ const TAGS = {
 
 export const CERTIFICATIONS = [
   {
-    title: 'AWS Certified Solutions Architect - Associate',
-    organization: 'Amazon Web Services',
-    date: '2024',
-    description: 'Architecting and deploying scalable, reliable, and secure AWS applications.',
-    link: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/'
-  },
-  {
-    title: 'Azure DevOps Engineer Expert',
+    title: 'Microsoft Certified: Azure Fundamentals',
     organization: 'Microsoft',
-    date: '2023',
-    description: 'Expert-level certification in Azure DevOps practices and tools.',
-    link: 'https://learn.microsoft.com/en-us/certifications/azure-devops-engineer-expert/'
+    date: '2022',
+    description: 'Fundamentals of Microsoft Azure.',
+    link: 'https://www.credly.com/badges/24c26abb-ddf8-4f60-a0c9-085450f75693/linked_in_profile'
   },
   {
-    title: 'Kubernetes Administrator',
-    organization: 'The Linux Foundation',
+    title: 'AWS Cloud Practitioner (CLF-C02)',
+    organization: 'KodeKloud',
+    date: '2024',
+    description: 'Fundamentals of AWS Cloud.',
+    link: 'https://learn.kodekloud.com/certificate/2D0D5F0D0A85-2EDA4EA9E4E1-2D0D58D9F9DD'
+  },
+  {
+    title: 'CKA Certification Course - Certified Kubernetes Administrator',
+    organization: 'KodeKloud',
     date: '2023',
     description: 'Certified Kubernetes Administrator (CKA) demonstrating expertise in Kubernetes operations.',
-    link: 'https://www.cncf.io/certification/cka/'
+    link: 'https://kodekloud.com/certificate-verification/2D0D5F0D0A85-2D0D5916B5EA-2D0D58D9F9DD/'
   },
   {
-    title: 'DevOps Foundation',
-    organization: 'DevOps Institute',
-    date: '2022',
-    description: 'Foundational knowledge of DevOps principles and practices.',
-    link: 'https://devopsinstitute.com/certifications/devops-foundation/'
+    title: 'DevSecOps - Kubernetes DevOps & Security',
+    organization: 'KodeKloud',
+    date: '2024',
+    description: 'DevSecOps - Kubernetes DevOps & Security demonstrating expertise in Kubernetes application development.',
+    link: 'https://learn.kodekloud.com/certificate/0c9f4391-9849-4c3b-ab9b-ff56f0af00cf'
+  },
+  {
+    title: 'Red Hat Certified System Administrator(RHCSA)',
+    organization: 'KodeKloud',
+    date: '2023',
+    description: 'Red Hat Certified System Administrator(RHCSA) demonstrating expertise in system administration.',
+    link: 'https://kodekloud.com/certificate-verification/2D0D5F0D0A85-2DF621945AD8-2D0D58D9F9DD/'
+  },
+  {
+    title: 'Terraform Associate Certification: HashiCorp Certified',
+    organization: 'KodeKloud',
+    date: '2023',
+    description: 'Terraform Associate Certification: HashiCorp Certified demonstrating expertise in Terraform.',
+    link: 'https://kodekloud.com/certificate-verification/2D0D5F0D0A85-2D1467693B4D-2D0D58D9F9DD/'
+  },
+  {
+    title: 'PCAP - Python Certification Course',
+    organization: 'KodeKloud',
+    date: '2023',
+    description: 'PCAP - Python Certification Course demonstrating expertise in Python.',
+    link: 'https://kodekloud.com/certificate-verification/2D0D5F0D0A85-2D143D829A81-2D0D58D9F9DD/'
+  },
+  {
+    title: 'Jenkins',
+    organization: 'KodeKloud',
+    date: '2024',
+    description: 'Demonstrating expertise in Jenkins.',
+    link: 'https://kodekloud.com/certificate-verification/2D0D5F0D0A85-2DEA718A4A94-2D0D58D9F9DD/'
+  },
+  {
+    title: 'Kustomize',
+    organization: 'KodeKloud',
+    date: '2023',
+    description: 'Demonstrating expertise in Kustomize.',
+    link: 'https://kodekloud.com/certificate-verification/2D0D5F0D0A85-2DF3D3AABF6E-2D0D58D9F9DD/'
+  },
+  {
+    title: 'GitOps Certified for Argo: GitOps Fundamentals',
+    organization: 'Codefresh',
+    date: '2023',
+    description: 'Demonstrating expertise in ArgoCD.',
+    link: 'https://learning.codefresh.io/certificate/6197cb3b2fbcec4da328aab2/user/63750215c6948c4e830d750f'
   }
 ];
 
