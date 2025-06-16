@@ -25,7 +25,7 @@ export function Header() {
           <div className="flex items-center gap-8 flex-wrap">
             <Link
               href="/"
-              aria-label="Logo"
+              aria-label="Avatar"
               className="group flex items-center gap-3 transition-all duration-300 ease-in-out hover:scale-105"
             >
               <motion.div
@@ -33,8 +33,8 @@ export function Header() {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src="/logo.svg"
-                  alt="Logo"
+                  src="/assets/avatar.jpg"
+                  alt="Avatar"
                   width={36}
                   height={36}
                   className="rounded-xl shadow-md group-hover:shadow-lg transition-all duration-300"

@@ -12,7 +12,7 @@ import { TerraformIcon } from '@/components/icons/tags/terraform'
 import { AnsibleIcon } from '@/components/icons/tags/ansible'
 import { AzureDevOpsIcon } from '@/components/icons/tags/azureDevOps'
 import { DevOpsIcon } from '@/components/icons/tags/devops'
-import { FileTextIcon, LinkIcon, MailIcon } from 'lucide-react'
+import { FileTextIcon, MailIcon } from 'lucide-react'
 
 export const AVATAR = {
   name: 'Jorge',
@@ -21,7 +21,7 @@ export const AVATAR = {
 
 export const ABOUT = {
   title: `DevOps Engineer focused on automation, scalability, and cloud infrastructure. Based in Madrid, Spain 🇪🇸`,
-  description: `I'm a passionate DevOps Engineer on a mission to automate everything and build highly scalable cloud infrastructures. With a strong focus on cloud computing, automation, and DevOps best practices, I specialize in streamlining deployments, optimizing workflows, and maintaining high-performance infrastructure. I work on real-time DevOps and cloud projects involving AWS, Azure, Terraform, Kubernetes, and Docker. I also develop automation scripts for tool installations and configurations, create comprehensive interview preparation content and cheat sheets, design curated learning paths for engineers at all levels, and foster collaborative spaces for open-source contributions and knowledge sharing.`
+  description: `I'm a passionate DevOps Engineer on a mission to automate everything and build highly scalable cloud infrastructures. With a strong focus on cloud computing, automation, and DevOps best practices, I specialize in streamlining deployments, optimizing workflows, and maintaining high-performance infrastructure. I work on real-time DevOps and cloud projects involving AWS, Azure, Terraform, Kubernetes, ArgoCD and Docker on my GitHub and also develop automation scripts for tool installations and configurations.`
 }
 
 export const LINKS = [
@@ -44,11 +44,6 @@ export const LINKS = [
     title: 'Email',
     url: 'mailto:jorgepezuela@hotmail.com',
     icon: MailIcon
-  },
-  {
-    title: 'Other Links',
-    url: 'https://link.jorgepezuela.site',
-    icon: LinkIcon
   }
 ]
 
@@ -74,7 +69,6 @@ export const CAREER = [
       }
     ]
   },
-{
   {
     company: 'Knowmad Mood',
     link: 'https://www.knowmadmood.com/es',
@@ -167,6 +161,37 @@ const TAGS = {
     icon: DevOpsIcon
   }
 }
+
+export const CERTIFICATIONS = [
+  {
+    title: 'AWS Certified Solutions Architect - Associate',
+    organization: 'Amazon Web Services',
+    date: '2024',
+    description: 'Architecting and deploying scalable, reliable, and secure AWS applications.',
+    link: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/'
+  },
+  {
+    title: 'Azure DevOps Engineer Expert',
+    organization: 'Microsoft',
+    date: '2023',
+    description: 'Expert-level certification in Azure DevOps practices and tools.',
+    link: 'https://learn.microsoft.com/en-us/certifications/azure-devops-engineer-expert/'
+  },
+  {
+    title: 'Kubernetes Administrator',
+    organization: 'The Linux Foundation',
+    date: '2023',
+    description: 'Certified Kubernetes Administrator (CKA) demonstrating expertise in Kubernetes operations.',
+    link: 'https://www.cncf.io/certification/cka/'
+  },
+  {
+    title: 'DevOps Foundation',
+    organization: 'DevOps Institute',
+    date: '2022',
+    description: 'Foundational knowledge of DevOps principles and practices.',
+    link: 'https://devopsinstitute.com/certifications/devops-foundation/'
+  }
+];
 
 export const PROJECTS = [
   {

@@ -53,3 +53,11 @@ export interface AvatarProps {
     image?: string
     video?: string
   }
+
+export interface CertificationProps {
+  title: string
+  organization: string
+  date?: string
+  description?: string
+  link?: string
+}
