@@ -37,7 +37,7 @@ export const LINKS = [
   },
   {
     title: 'Resume',
-    url: 'https://cv-portfolio-cdauac42f-jorgepezuelas-projects.vercel.app',
+    url: 'https://cv-portfolio-gules-delta.vercel.app/',
     icon: FileTextIcon
   },
   {
