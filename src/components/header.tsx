@@ -97,7 +97,7 @@ export function Header() {
           className="mt-4 flex md:hidden justify-center flex-wrap gap-2"
         >
           {navLinks.map((link) => (
-            <Button asChild variant="ghost" size={null} key={link.label}>
+            <Button variant="ghost" size={null} key={link.label}>
               {link.external ? (
                 <a
                   href={link.url}
