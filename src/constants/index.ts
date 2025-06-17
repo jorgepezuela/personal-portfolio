@@ -18,9 +18,9 @@ export const data = {
 }
 
 export const navLinks = [
-  { title: 'About', label: 'about', url: '/', external: true },
-  { title: 'Career', label: 'career', url: '/career', external: true },
-  { title: 'Projects', label: 'projects', url: '/projects', external: true },
-  { title: 'Courses & Certifications', label: 'certifications', url: '/certifications', external: true },
-  { title: 'Contact', label: 'contact', url: '/contact', external: true }
+  { title: 'About', label: 'about', url: '/', external: false },
+  { title: 'Career', label: 'career', url: '/career', external: false },
+  { title: 'Projects', label: 'projects', url: '/projects', external: false },
+  { title: 'Courses & Certifications', label: 'certifications', url: '/certifications', external: false },
+  { title: 'Contact', label: 'contact', url: '/contact', external: false }
 ]
