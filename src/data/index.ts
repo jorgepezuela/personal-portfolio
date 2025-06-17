@@ -20,7 +20,7 @@ export const AVATAR = {
 }
 
 export const ABOUT = {
-  title: `DevOps Engineer focused on automation, scalability, and cloud infrastructure. Based in Madrid, Spain 🇪🇸`,
+  title: `DevOps Engineer focused on automation, scalability and cloud infrastructure. Based in Madrid, Spain 🇪🇸`,
   description: `I'm a passionate DevOps Engineer on a mission to automate everything and build highly scalable cloud infrastructures. With a strong focus on cloud computing, automation, and DevOps best practices, I specialize in streamlining deployments, optimizing workflows, and maintaining high-performance infrastructure. I work on real-time DevOps and cloud projects involving AWS, Azure, Terraform, Kubernetes, ArgoCD and Docker on my GitHub and also develop automation scripts for tool installations and configurations.`
 }
 
