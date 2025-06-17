@@ -1,7 +1,7 @@
 'use client'
 
 import { usePathname } from 'next/navigation'
-import { Link } from 'next-view-transitions'
+import Link from 'next/link'
 import { Button } from './ui/button'
 import { ModeToggle } from './mode-toggle'
 import clsx from 'clsx'
@@ -69,6 +69,7 @@ export function Header() {
                           'focus-visible:bg-primary/10': pathname !== link.url
                         }
                       )}
+                      target="_self"
                     >
                       {link.title}
                     </Link>
