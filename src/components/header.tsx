@@ -45,7 +45,7 @@ export function Header() {
 
             <nav className="hidden md:flex items-center gap-2">
               {navLinks.map((link) => (
-                <Button asChild variant="ghost" size={null} key={link.label}>
+                <Button variant="ghost" size={null} key={link.label}>
                   {link.external ? (
                     <a
                       href={link.url}
@@ -69,7 +69,6 @@ export function Header() {
                           'focus-visible:bg-primary/10': pathname !== link.url
                         }
                       )}
-                      target="_self"
                     >
                       {link.title}
                     </Link>
