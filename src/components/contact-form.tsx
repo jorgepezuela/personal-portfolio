@@ -34,14 +34,25 @@ export function ContactForm() {
 
     try {
       setIsSubmitting(true)
+      
+      const response = await fetch('/api/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(form),
+      })
 
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1500))
+      if (!response.ok) {
+        const errorData = await response.json()
+        throw new Error(errorData.message || 'Failed to send message')
+      }
 
+      const data = await response.json()
       toast.success('Message sent successfully!')
       setForm({ firstName: '', lastName: '', email: '', message: '' })
     } catch (error) {
-      toast.error('Something went wrong. Please try again later.')
+      toast.error(error instanceof Error ? error.message : 'Something went wrong. Please try again later.')
     } finally {
       setIsSubmitting(false)
     }
