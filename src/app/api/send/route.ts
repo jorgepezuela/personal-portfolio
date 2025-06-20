@@ -12,8 +12,8 @@ export async function POST(request: Request) {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Contact Form <form@resend-noreply.com>',
-      to: process.env.RESEND_EMAIL_TO || 'jorge.pezuela@hotmail.com',
+      from: 'Jorge Pezuela <no-reply@jorgepezuela.site>',
+      to: [email],
       subject: 'Message from contact form',
       react: ContactEmailTemplate({
         firstName,
