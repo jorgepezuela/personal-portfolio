@@ -11,9 +11,9 @@ export async function POST(request: Request) {
     (await request.json()) as ContactEmailTemplateProps
 
   try {
-    const { data, error } = await resend.emails.send({
+    const data = await resend.emails.send({
       from: 'Jorge Pezuela <no-reply@jorgepezuela.site>',
-      to: process.env.RESEND_EMAIL_TO || 'contact.jurj@gmail.com',
+      to: 'contact.jurj@gmail.com',
       subject: 'Message from contact form',
       react: ContactEmailTemplate({
         firstName,
@@ -23,7 +23,7 @@ export async function POST(request: Request) {
       })
     })
 
-    if (error) {
+    if (!data) {
       return NextResponse.json({ message: 'Error sending email' }, { status: 500 })
     }
 
